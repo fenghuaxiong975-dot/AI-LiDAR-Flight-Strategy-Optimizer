@@ -1,0 +1,16 @@
+name: lidar-flight-optimizer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy<2
+  - pandas
+  - scipy
+  - h5py
+  - scikit-learn
+  - geopandas
+  - shapely
+  - pip:
+      - laspy>=2.4,<3.0
+# Install PyTorch and pointnet2_ops separately as described in README.md.
